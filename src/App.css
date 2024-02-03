@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito+Sans:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap');
+.myTodo{
+    background-color:rgba(210, 99, 71, 0.5);
+    width: 30%;
+    padding: 1px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin: 20px auto;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.inputbox{
+    /* box-shadow: inset  0 10px rgba(0,0,0,0.5); */
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    outline: none;
+}
+.inp-submit{
+    border-radius: 25px;
+    width: 57px;
+    height: 40px;
+    border: 1px solid rgba(210, 99, 71, 0.5);
+    position: absolute;
+    right: 340px;
+    top: 10px;
+    cursor: pointer;
+    background-color: rgba(210, 99, 71, 0.5);
+    transition: 0.2s all ease
+
+}
+.inputbox:focus{
+ box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.6);
+ outline: none;
+}
+.myTodos span{
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 5px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.icons span{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(210, 99, 71, 0.5);;
+}
+.myTodos{
+   width: 40%;
+   min-height: 40px;
+   margin-top: 20px;
+   border: 3px solid rgba(210, 99, 71, 0.5);;
+   border-radius: 25px;
+   /* padding: 25px 20px 0 20px; */
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.todos{
+    margin: 30px auto;
+  /* border: 1px solid black; */
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.myinp{
+    border-radius: 10px;
+    background-color: rgba(210, 99, 71, 0.5);
+    padding: 15px;
+    outline: none;
+}
